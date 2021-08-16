@@ -1,0 +1,12 @@
+server:
+  servlet:
+    session:
+      timeout: 30s
+
+spring:
+  session:
+    store-type: redis
+  redis:
+    client-name: demo
+    host: localhost
+    port: 6379
